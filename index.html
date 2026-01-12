@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moon Destroyer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Moon Destroyer</h1>
+    <div id="gameSetup">
+        <h2>Select Difficulty</h2>
+        <div id="difficultySelection">
+            <button id="easyButton" class="difficulty-button">Easy</button>
+            <button id="mediumButton" class="difficulty-button selected">Medium</button>
+            <button id="hardButton" class="difficulty-button">Hard</button>
+        </div>
+        <button id="startButton">Start Game</button>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600" style="display:none;"></canvas>
+    <div id="timer" style="display:none;">Time: 60</div>
+    <div id="winScreen" style="display:none;">
+        <h2>You Win!</h2>
+        <p>Here's your cheese trophy:</p>
+        <div id="trophy">🧀</div>
+        <button id="restartButtonWin">Restart</button>
+    </div>
+    <div id="loseScreen" style="display:none;">
+        <h2>You Lose!</h2>
+        <p>Try again!</p>
+        <button id="restartButtonLose">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

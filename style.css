@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+    background-color: #111;
+    border: 1px solid #fff;
+}
+
+#timer {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#trophy {
+    font-size: 100px;
+}
+
+.difficulty-button.selected {
+    background-color: #f00;
+    color: #fff;
+}

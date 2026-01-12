@@ -1,0 +1,11 @@
+First
+
+Build a simple javascript web browser game. The game features a destructible moon at the center of the screen. The user controls a space ship that can shoot at the moon an break off pieces. The goal is to destroy the moon completely before a 60s timer runs out. If the player succeeds they should be presented with a trophy featuring a wedge of cheese.
+
+Second
+
+This project is a simple game features a destructible moon at the center of the screen. The user controls a space ship that can shoot at the moon an break off pieces. The goal is to destroy the moon completely before a 60s timer runs out. The game is too difficult now and it is impossible to win. Please make the game much simpler and also let the user choose between three difficulty levels.
+
+Third
+
+The game is still way to hard. Could you make it so the bullets do not disappear when they hit a target. Instead have them continue on and destroy more targets in their path. Also make the bullets progressively larger for the easier difficulties. 
