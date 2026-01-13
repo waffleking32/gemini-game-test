@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://moon12345"]
+
+[ext_resource type="Script" path="res://scripts/Moon.gd" id="1_moon"]
+
+[node name="Moon" type="StaticBody2D"]
+script = ExtResource("1_moon")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.8, 0.8, 0.8, 1)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]

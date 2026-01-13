@@ -1,0 +1,18 @@
+This directory is an empty godot project. Build a simple 2d game that features a destructible moon at the center of the screen. The user controls a space ship that can shoot at the moon and break off pieces. The goal is to destroy the moon completely before a 60s timer runs out. If the player succeeds they should be presented with a trophy featuring a wedge of cheese. The game should allow the player to pick from three difficulty levels. For easier difficulties, perhaps the weapon should break off more pieces of the moon with each shoot or all for more rapid shooting. 
+
+
+Seems there is something wrong with the game. When I use the space bar to shoot nothing happens. Ship movement seems to work fine. BTW, I say you tried to test with. The name of the Godot executable on my system is `godot-4` so you should be able to test with that.
+
+
+Game seems to work now but I think there is a problem displaying something when I win the game. I see this stack trace in the output.
+
+SCRIPT ERROR: Invalid assignment of property or key 'text' with value of type 'String' on a base object of type 'null instance'.
+          at: show_game_over (res://scripts/UI.gd:32)
+          GDScript backtrace (most recent call first):
+              [0] show_game_over (res://scripts/UI.gd:32)
+              [1] game_over (res://scripts/Main.gd:64)
+              [2] _on_moon_destroyed (res://scripts/Main.gd:60)
+              [3] _check_destroyed (res://scripts/Moon.gd:148)
+              [4] hit (res://scripts/Moon.gd:47)
+              [5] _on_body_entered (res://scripts/Bullet.gd:11)
+
